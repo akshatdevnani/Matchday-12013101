@@ -44,7 +44,10 @@ const Video = () => {
   return (
     <div className="video-screen">
       <header>
-        <h2>Video Analytics</h2>
+        <div className="video-header">
+          <h2>Video Analytics</h2>
+          <hr/>
+        </div>
       </header>
       <video
         id="video"

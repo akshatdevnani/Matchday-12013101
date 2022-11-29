@@ -4,6 +4,7 @@ import "./Home.css";
 import axios from "axios";
 import Data from "../Data.json";
 import { Link } from "react-router-dom";
+import search_icon from "../assets/search-con.png"
 
 const Home = () => {
   const data = useRef({})
@@ -106,9 +107,10 @@ const Home = () => {
       <header>
         <h1>International Matches</h1>
         <div className="input-form">
+          <img src={search_icon}></img>
           <input
             type="text"
-            placeholder="search"
+            placeholder="Search for Matches"
             className="search-box"
             onChange={(e) => search(e.target.value)}
           />

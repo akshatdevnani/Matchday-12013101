@@ -4,9 +4,35 @@
     justify-content: center;
 }
 
+
+.video-header {       
+    background-color: #ccccdc;
+    display: block;
+    height: 2.7rem;
+   
+
+}
+
+.video-header h2{
+    position: relative;
+    font-weight: 600;
+    padding-top:0.2rem;
+}
+
+hr{           
+        position: relative;
+        height: 0.02rem;
+        background: black;
+        width: 40%;
+        align-self: center;
+        bottom: 33%;
+
+}
+
 #video{
     width: 50%;
     margin: auto;
+    margin-top: 4rem;
 }
 
 .controls > button{

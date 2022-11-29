@@ -9,7 +9,18 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+.input-form img{
+    position: absolute;
+    right: 30rem;
+    top: 5.7rem;
+}
+
+.input-form input{
+    padding-left: 2rem;
+}
+
 .search-box{
+    width: 27rem;
     padding: 10px;
     margin-right: 30px;
 }
@@ -27,3 +38,5 @@
     margin-top: 10px;
 }
 }
+
+
